@@ -1,7 +1,13 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
-  "scripts": { 
+  "scripts": {
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "engines": {
+   "node": ">=18.0.0"
   }
 }
+
+
+
